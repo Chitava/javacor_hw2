@@ -4,7 +4,7 @@ package Task1;
  (см. последние минут 10 семинара)
  **/
 
-public class Task1 {
+public class task1 {
     public static int findMin (int[] array){
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
