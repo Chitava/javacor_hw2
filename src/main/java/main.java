@@ -1,17 +1,17 @@
 import Task1.task1;
 import Task2.CeaserCipher;
-
+import Task3.task3;
 import java.util.Scanner;
 
 public class main {
         public static void main(String[] args) {
-/*Задача № 1*/
+                /*Задача № 1*/
 //            int[] array = {2,6,-2,0,15,2,6,6,10,-2,-2};
 //            int[] sortedArray = task1.countingSort(array);
 //            for (int val: sortedArray) {
 //                System.out.print(val+ ", ");
 //            }
-/*Задача № 2*/
+                /*Задача № 2*/
 //            System.out.println("Что делаем? Шифруем - нажми 1, дешифруем - нажми 2");
 //            Scanner scan = new Scanner(System.in);
 //            int choise = scan.nextInt();
@@ -39,9 +39,17 @@ public class main {
 //                    break;
 //                }
 //            }
-/*Задача № 3*/
-
-        }
+                /*Задача № 3*/
+                int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+                int[] offsetArray = Task3.task3.offsetarray(array, 4);
+                for (int val : array) {
+                    System.out.print(val+ ", ");
+                }
+                System.out.println("\n");
+                for (int val : offsetArray) {
+                        System.out.print(val+ ", ");
+                }
+                }
 
 
         }
